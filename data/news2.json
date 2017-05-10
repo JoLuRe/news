@@ -1,13 +1,17 @@
 [
-{"title":"Un transexual con pene de escayola engaño a su esposa durante 17 años", "imgmid":"pene_escayola.jpg", "description":"Nadie se explica como consiguió esconder su secreto a su esposa 
-durante 17 años. Ha ocurrido en Inglaterra. Una transexual de 50 años estuvo casada durante 17 años con una rica heredera que no supo el verdadero sexo de su marido hasta que pudo ver su 
-certificado de nacimiento. Escogí la escayola porque es un material cálido, al principio pensé en el mármol, pero lo descarté porque es un material un tanto frío", "datetime":"07/04/2017"},
-{"title":"Denuncia a su farmacéutico porque no le avisó", "imgmid":"viagra_esnifa.jpg", "description":"Asegura que su boticario jamás le mencionó que la viagra no se esnifa. "Llevaba 3 
-años consumiendo viagra por vía nasal y ahora me entero que esa no es la forma de administración", ha declarado. Esto le ha provocado un tamaño de su apéndice nasal considerablemente mayor de lo 
-normal. "En el barrio me llaman Pinocho y soy motivo de burla constante", declaró. Asegura que va a querellarse contra la farmacia que le vendía el fármaco por falta de información.
-"Lo peor no es eso sino que mis problemas de erección no han mejorado en absoluto y he desperdiciado 3 años", añadió", "datetime":"05/04/2017"},
-{"title":"Cuidado con lo que se grita", "imgmid":"woman_megaph.jpg", "description":"Una vecina de Lorca alertó a Bomberos y Policía ante lo que parecía ser una 
-llamada de auxilio. La mujer aseguró haber oído gritos de Socorro, socorro! provenientes de su mismo edificio. Un policía llamó al timbre de la vivienda de donde procedían los gritos y de 
-ella salió un joven. El vecino tuvo que explicar al agente que la mujer era su novia y que no estaba pidiendo ayuda exactamente sino que decía 'me corro, me corro'. Vecino y agente se 
-despidieron sonrojados", "datetime":"03/04/2017"}
+	{"title":"Un transexual con pene de escayola engaño a su esposa durante 17 años", 
+		"imgmid":"pene_escayola.jpg", 
+		"description1":"Nadie se explica como consiguió esconder su secreto a su esposa durante tanto tiempo. Ha ocurrido en Inglaterra. Una transexual de 50 años estuvo casada durante 17 años con una rica heredera que no supo el verdadero sexo de su marido hasta que pudo ver su certificado de nacimiento", 
+		"description2":"'Escogí la escayola porque es de textura cálida, al principio pensé en el mármol, pero lo descarté porque es un material un tanto frío'", 
+		"datetime":"07/04/2017"},
+	{"title":"Denuncia a su farmacéutico porque no le avisó", 
+		"imgmid":"viagra_esnifa.jpg", 
+		"description1":"Asegura que su boticario jamás le mencionó que la viagra no se esnifa. 'Llevaba 3 años consumiendo viagra por vía nasal y ahora me entero que esa no es la forma de administración', ha declarado", 
+		"description2":"Esto le ha provocado un tamaño de su apéndice nasal considerablemente mayor de lo normal. 'En el barrio me llaman Pinocho y soy motivo de burla constante', declaró. Asegura que va a querellarse contra la farmacia que le vendía el fármaco por falta de información. 'Lo peor no es eso sino que mis problemas de erección no han mejorado en absoluto y he desperdiciado 3 años', añadió", 
+		"datetime":"05/04/2017"},
+	{"title":"Cuidado con lo que se grita", 
+		"imgmid":"woman_megaph.jpg", 
+		"description1":"Una vecina de Lorca alertó a Bomberos y Policía ante lo que parecía ser una llamada de auxilio. La mujer aseguró haber oído gritos de Socorro, socorro! provenientes de su mismo edificio", 
+		"description2":"Un policía llamó al timbre de la vivienda de donde procedían los gritos y de ella salió un joven. El vecino tuvo que explicar al agente que la mujer era su novia y que no estaba pidiendo ayuda exactamente sino que decía 'me corro, me corro'. Vecino y agente se despidieron sonrojados", 
+		"datetime":"03/04/2017"}
 ]

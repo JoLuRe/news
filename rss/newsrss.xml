@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+
+<news>
+
+<!-- individual news -->    
+   <new>
+     <title id='titular1'>titulo de la noticia</title>
+     <link>enlace de la noticia</link>
+     <description>descripción de la noticia</description>
+     <image>imagen de la noticia</image>
+     <pubdate>fecha de publicacion de la noticia</pubdate>
+   </new>
+
+</news>

@@ -4,7 +4,7 @@ body{
 	font-family: 'Roboto', sans-serif;
 /*	background-color:#efe7ff;  */
 /*	background-color:lightblue;*/
-    background:url('../img/17.jpg') no-repeat center center fixed; 
+    background:url('../img/tapiz.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -43,7 +43,7 @@ p.descripcion2{
 #cabecera{
 /*    margin:2px 3px 2px 3px;  */
 /*    background-color:darkblue;*/
-    background:url('../img/g.jpg') 50% 50% no-repeat;
+    background:url('../img/cenefa.jpg') 50% 50% no-repeat;
     background-size:cover;
     color: white;
     padding: 2px 50px 3px 50px;

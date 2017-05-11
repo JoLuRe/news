@@ -1,16 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-
-<?xml-stylesheet type="text/xsl" href="rss.xsl"?>
-
-<news>
-
-<!-- individual news -->    
-   <new>
-     <title id='titular1'>titulo de la noticia</title>
-     <link>enlace de la noticia</link>
-     <description>descripción de la noticia</description>
-     <image>imagen de la noticia</image>
-     <pubdate>fecha de publicacion de la noticia</pubdate>
-   </new>
-
-</news>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+	<channel>
+<!-- mandatory child -->		
+		<title>TeLoCuento.com</title>
+		<link>https://cdn.rawgit.com/JoLuRe/news/69813056/news.html</link>
+		<description>Todo lo que necesitas saber y no te atreves a preguntar o nadie más se atreve a contarte</description>
+<!-- optional child -->		
+		<item>
+<!-- mandatory child -->		
+			<title>Sufre dos amputaciones de su miembro el mismo día</title>
+			<link>https://cdn.rawgit.com/JoLuRe/news/69813056/news1.html</link>
+			<description><![CDATA[<img src='https://raw.githubusercontent.com/JoLuRe/news/69813056/img/salchichas_rotas.jpg' width='150' height='150' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>Amputado, reimplantado y reamputado en 24 horas</p>]]></description>
+<!-- optional child -->		
+			<pubDate>02 May 2017 15:21:00 +0100</pubDate>
+			<guid>https://cdn.rawgit.com/JoLuRe/news/69813056/rss/item0001</guid>
+			<media:thumbnail url="https://raw.githubusercontent.com/JoLuRe/news/69813056/img/salchichas_rotas.jpg" width='150' height='150' />
+<!--			<author>jordi.lucio@gmail.com</author>  -->
+			<atom:link href="https://news.html/newsrss.xml" rel="self" type="application/rss+xml" />
+		</item>
+		<item>
+<!-- mandatory child -->		
+			<title>Se emborracha bebiendo... gasolina!</title>
+			<link>https://cdn.rawgit.com/JoLuRe/news/69813056/news2.html</link>
+			<description><![CDATA[<img src='https://raw.githubusercontent.com/JoLuRe/news/69813056/img/bebiendo_bidon.jpg' width='150' height='150' alt='' class='thumbnail' style='float:right;margin-left: 3px' align='right' hspace='3'/><p>Le da más reprise que un Ferrari</p>]]></description>
+<!-- optional child -->		
+			<pubDate>28 Apr 2017 18:37:00 +0100</pubDate>
+			<guid>https://cdn.rawgit.com/JoLuRe/news/69813056/xml/item0002</guid>
+			<media:thumbnail url="https://raw.githubusercontent.com/JoLuRe/news/69813056/img/bebiendo_bidon.jpg" width='150' height='150' />
+<!--			<author>jordi.lucio@gmail.com</author>  -->
+			<atom:link href="https://news.html/newsrss.xml" rel="self" type="application/rss+xml" />
+		</item>
+	</channel>
+</rss>

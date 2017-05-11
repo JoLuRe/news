@@ -18,7 +18,8 @@ function loadNews()
 {
     if(contador >= jsonfiles.length)
     {
-          alert("Nada más por hoy");
+        alert("Nada más por hoy");
+        $("#loadmore").prop( "disabled", true );
     }
     if(contador < jsonfiles.length)
     {

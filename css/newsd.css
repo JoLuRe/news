@@ -56,12 +56,25 @@ p.descripcion2{
     position:relative;
 /*    padding-top:100px;*/
 }
+/*
+#more_news1, #more_news2{
+    display:none;
+}
+*/
 #advertising{
     float: right;
     width: 300px;
     height: 100%;
     margin-top: 20px;
 }
+/*
+#advertising0, #advertising1, #advertising2{
+    float: right;
+    width: 300px;
+    height: 100%;
+    margin-top: 20px;
+}
+*/
 .container{
 /*    position:relative;
     top:100px;*/

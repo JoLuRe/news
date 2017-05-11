@@ -16,7 +16,11 @@ $(window).scroll(function(){
 
 function loadNews()
 {
-     if(contador < jsonfiles.length)
+    if(contador >= jsonfiles.length)
+    {
+          alert("Nada más por hoy");
+    }
+    if(contador < jsonfiles.length)
     {
         $.getJSON(jsonfiles[contador], function(jsonObject){
             var items = [];
@@ -35,15 +39,18 @@ function loadNews()
                 items.push(str);
             });
 
+//            more_news="#more_news" + (contador+1);
+
+            
             $("<div/>", {
 //                  "class": "row",
                     html: items.join("")
             }).appendTo("#more_news");
+//            }).appendTo(more_news);
         });
         contador++;
+        
+//        $(more_news).show();
     }
-    if(contador >= jsonfiles.length)
-    {
-          alert("Nada más por hoy");
-    }
+    
 }

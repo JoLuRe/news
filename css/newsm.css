@@ -34,11 +34,18 @@ p.descripcion1{
 /*    font-style: italic;*/
     font-style: normal;
     color:darkblue;
+    font-size:18;
 }
 p.descripcion2{
     font-weight:normal;
     font-style:normal;
-    color:grey;
+    color:darkslategray;
+}
+p.descripcion3{
+    font-weight:normal;
+    font-style:normal;
+    color:darkslategray;
+    font-size:18;
 }
 #cabecera{
 /*    margin:2px 3px 2px 3px;  */
@@ -56,12 +63,25 @@ p.descripcion2{
     position:relative;
 /*    padding-top:100px;*/
 }
+/*
+#more_news1, #more_news2{
+    display:none;
+}
+*/
 #advertising{
     float: right;
     width: 300px;
     height: 100%;
     margin-top: 20px;
 }
+/*
+#advertising0, #advertising1, #advertising2{
+    float: right;
+    width: 300px;
+    height: 100%;
+    margin-top: 20px;
+}
+*/
 .container{
 /*    position:relative;
     top:100px;*/
@@ -78,15 +98,25 @@ div{
     margin-top: 4%;
     margin-bottom: 4%;
 }
+.footer{
+  padding:10px 0 10px;
+  margin-top:30px;
+  color: white;
+  text-align:center;
+/*  background-color:#f5f5f5;*/
+  background:url('../img/cenefa.jpg') 50% 50% no-repeat;    
+  width:100%;
+}
 
-.footer span{
-    /*position: fixed;
-    bottom:0;*/
-    height:30px;
-    background:url('../img/g.jpg') 50% 50% no-repeat;
-    background-size:cover;
-    color: white; 
-    vertical-align: middle
-    font-size:12px;
-    text-align: center;    
+.footer-links{
+  padding-left:0;
+  margin-bottom:10px;
+}
+
+.footer-links li+li{
+  margin-left:15px;
+}
+
+.footer-links li{
+  display: inline-block;
 }

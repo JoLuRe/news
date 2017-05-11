@@ -1,80 +1,91 @@
-body{
-	margin:0;
-	padding:0;
-	font-family: 'Roboto', sans-serif;
-/*	background-color:#efe7ff;  */
-/*	background-color:lightblue;*/
-/*    background:url('../img/tapiz.jpg') no-repeat center center fixed; 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    /*  background-color:#efe7ff;  */
+    /*  background-color:lightblue;*/
+    background: url('../img/tapiz.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;  */
-	font-size:16px; 
-    background-color:#efe7ff;  
+    background-size: cover;
+    font-size: 16px
 }
-small.cabecera, p.cabecera{
-    color: cyan;    
+
+small.cabecera, p.cabecera {
+    color: cyan;
 }
+
 mark.titulo {
     color: darkblue;
-/*    background: #ff0;  */
-/*    background: cyan;   */
-    font-size: 23px; !important
-    font-weight:bold; !important
-    border:1px solid #fcf8e3;
+    /*    background: #ff0;  */
+    /*    background: cyan;   */
+    font-size: 23px;
+    font-weight: bold;
+    border: 1px solid #fcf8e3;
     border-radius: 8px;
 }
-.fecha{
+
+.fecha {
     font-size: 14px;
     font-weight: bold;
-/*    background-color: darkblue;
+    /*    background-color: darkblue;
     color:#fcf8e3;  */
 }
-p.descripcion1{
-    font-weight:bold;
-/*    font-style: italic;*/
+
+p.descripcion1 {
+    font-weight: bold;
+    /*    font-style: italic;*/
     font-style: normal;
-    color:darkblue;
-    font-size:18;
+    color: darkblue;
+    font-size: 18px;
 }
-p.descripcion2{
-    font-weight:normal;
-    font-style:normal;
-    color:darkslategray;
+
+p.descripcion2 {
+    font-weight: normal;
+    font-style: normal;
+    color: darkslategray;
 }
-p.descripcion3{
-    font-weight:normal;
-    font-style:normal;
-    color:darkslategray;
-    font-size:18;
+
+p.descripcion3 {
+    font-weight: normal;
+    font-style: normal;
+    color: darkslategray;
+    font-size: 18px;
 }
-#cabecera{
-/*    margin:2px 3px 2px 3px;  */
-/*    background-color:darkblue;*/
-    background:url('../img/cenefa.jpg') 50% 50% no-repeat;
-    background-size:cover;
+
+#cabecera {
+    /*    margin:2px 3px 2px 3px;  */
+    /*    background-color:darkblue;*/
+    background: url('../img/cenefa.jpg') 50% 50% no-repeat;
+    background-size: cover;
     color: white;
     padding: 2px 50px 3px 50px;
-/*    position:fixed;*/
+    /*    position:fixed;*/
     height: 100px;
-    width:100%
+    width: 100%
+}
 
+#cuerpo {
+    position: relative;
+    /*    padding-top:100px;*/
 }
-#cuerpo{
-    position:relative;
-/*    padding-top:100px;*/
-}
+
+
 /*
 #more_news1, #more_news2{
     display:none;
 }
 */
-#advertising{
+
+#advertising {
     float: right;
     width: 300px;
     height: 100%;
     margin-top: 20px;
 }
+
+
 /*
 #advertising0, #advertising1, #advertising2{
     float: right;
@@ -83,15 +94,17 @@ p.descripcion3{
     margin-top: 20px;
 }
 */
-.container{
-/*    position:relative;
+
+.container {
+    /*    position:relative;
     top:100px;*/
 }
-div{
-/*    border:2px solid red;*/
+
+div {
+    /*    border:2px solid red;*/
 }
 
-.cargarmas{
+.cargarmas {
     position: relative;
     display: flex;
     justify-content: center;
@@ -99,25 +112,26 @@ div{
     margin-top: 4%;
     margin-bottom: 4%;
 }
-.footer{
-  padding:10px 0 10px;
-  margin-top:30px;
-  color: white;
-  text-align:center;
-/*  background-color:#f5f5f5;*/
-  background:url('../img/cenefa.jpg') 50% 50% no-repeat;    
-  width:100%;
+
+.footer {
+    padding: 10px 0 10px;
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+    /*  background-color:#f5f5f5;*/
+    background: url('../img/cenefa.jpg') 50% 50% no-repeat;
+    width: 100%;
 }
 
-.footer-links{
-  padding-left:0;
-  margin-bottom:10px;
+.footer-links {
+    padding-left: 0;
+    margin-bottom: 10px;
 }
 
-.footer-links li+li{
-  margin-left:15px;
+.footer-links li+li {
+    margin-left: 15px;
 }
 
-.footer-links li{
-  display: inline-block;
+.footer-links li {
+    display: inline-block;
 }

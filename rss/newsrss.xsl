@@ -10,28 +10,34 @@
 -->
 <!--    <link rel="stylesheet" type="text/css" media='screen and (min-width: 961px)' href='../css/rssd.css'></link>
     <link rel="stylesheet" type="text/css" media='screen and (max-width: 960px)' href='../css/rssm.css'></link>   -->
-    <link rel="stylesheet" type="text/css" media='screen and (min-width: 961px)' href='css/rssd.css'></link>
-    <link rel="stylesheet" type="text/css" media='screen and (max-width: 960px)' href='css/rssm.css'></link>
+    <link rel="stylesheet" type="text/css" media='screen and (min-width: 881px)' href='css/newsrssd.css'></link>
+    <link rel="stylesheet" type="text/css" media='screen and (max-width: 880px)' href='css/newsrssm.css'></link>
   </head>
   <body>
   <h2>News to keep you in the loop</h2>
   <table>
 
     <tr>
-      <th>Title</th>
-      <th>Link</th>
-      <th>Description</th>
-      <th>Image</th>
-      <th>Publish date</th>
+      <th>Titulo</th>
+      <th>Enlace</th>
+      <th>Descripción</th>
+      <th>Fecha publicación</th>
+      <th>Imagen</th>
+      <th>Miniatura</th>
+      <th>Enlace atom</th>
+
     </tr>
 
-    <xsl:for-each select="news/new">
+    <xsl:for-each select="channel/item">
     <tr>
       <td><xsl:value-of select="title"/></td>
       <td><xsl:value-of select="link"/></td>
       <td><xsl:value-of select="description"/></td>
-      <td><xsl:value-of select="image"/></td>
-      <td><xsl:value-of select="pubdate"/></td>
+      <td><xsl:value-of select="pubDate"/></td>
+      <td><xsl:value-of select="guid"/></td>
+      <td><xsl:value-of select="media:thumbnail"/></td>
+      <td><xsl:value-of select="atom:link"/></td>
+
     </tr>
     </xsl:for-each>
 

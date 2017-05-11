@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT rss (channel+)>
+<!ATTLIST rss version CDATA #REQUIRED>
+<!ATTLIST rss xmlns:atom CDATA #REQUIRED>
+<!ATTLIST rss xmlns:media CDATA #REQUIRED>
+<!ELEMENT channel (title,link,description,item*)>
+<!ELEMENT item (title,link,description,pubDate?,guid?,media:thumbnail?,atom:link?)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT link (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT pubDate (#PCDATA)>
+<!ELEMENT guid (#PCDATA)>
+<!ELEMENT media:thumbnail (#PCDATA)>
+<!ELEMENT atom:link (#PCDATA)>

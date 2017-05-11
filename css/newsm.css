@@ -4,12 +4,13 @@ body{
 	font-family: 'Roboto', sans-serif;
 /*	background-color:#efe7ff;  */
 /*	background-color:lightblue;*/
-    background:url('../img/tapiz.jpg') no-repeat center center fixed; 
+/*    background:url('../img/tapiz.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
-	font-size:16px 
+    background-size: cover;  */
+	font-size:16px; 
+    background-color:#efe7ff;  
 }
 small.cabecera, p.cabecera{
     color: cyan;    

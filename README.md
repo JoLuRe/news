@@ -8,7 +8,7 @@ La web sigue las especificaciones de las tarea, las dos primeras noticias enlaza
 También usa _json_ para almacenar las noticias adicionales y _RSS_ para suscribirse
 
 ## Origen de las noticias
-Todas las noticias tienen una base real, pero parte del texto redactado por mí se ha modificado y/o inventado.
+Todas las noticias tienen una base real, pero parte del texto redactado por mí se ha modificado y/o inventado. Pueden verse recortes de prensa reales en la carpeta img.
 
 ## Pruebas
 A la hora de hacer las pruebas se debe comentar lo siguiente:

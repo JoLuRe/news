@@ -34,11 +34,18 @@ p.descripcion1{
 /*    font-style: italic;*/
     font-style: normal;
     color:darkblue;
+    font-size:18;
 }
 p.descripcion2{
     font-weight:normal;
     font-style:normal;
-    color:grey;
+    color:darkslategray;
+}
+p.descripcion3{
+    font-weight:normal;
+    font-style:normal;
+    color:darkslategray;
+    font-size:18;
 }
 #cabecera{
 /*    margin:2px 3px 2px 3px;  */
@@ -91,7 +98,6 @@ div{
     margin-top: 4%;
     margin-bottom: 4%;
 }
-
 .footer{
   padding:10px 0 10px;
   margin-top:30px;
